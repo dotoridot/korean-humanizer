@@ -178,6 +178,6 @@ A. ✓. Mode A / B / C 입력 형식 (`금지=...; 선호=A→B; 유지=...` / �
 
 ## 도움이 필요하면
 
-- 마이그레이션이 막히면 [GitHub Issue](https://github.com/dotoricode/korean-humanizer/issues/new) 에 `[migration]` prefix 로.
+- 마이그레이션이 막히면 [GitHub Issue](https://github.com/dotoridot/korean-humanizer/issues/new) 에 `[migration]` prefix 로.
 - 외부 fork 가 카탈로그 v2 마이그레이션을 자동화한 스크립트가 있다면 PR 환영 (`scripts/migrate-catalog-v2.sh` 같은 자리).
 - 보안 영향 있는 마이그레이션 이슈는 [SECURITY.md](../../../SECURITY.md) 절차로 비공개 보고.

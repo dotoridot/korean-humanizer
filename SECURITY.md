@@ -21,7 +21,7 @@
 다음 중 한 채널로:
 
 1. **GitHub Security Advisory** — 이 레포의 `Security` 탭 → `Report a vulnerability` (가장 권장).
-2. **Email** — 메인테이너 (dotori, GitHub: [@dotoricode](https://github.com/dotoricode)) 의 commit author email 로 직접 보내기. (스팸 방지 위해 평문 표기 안 함.)
+2. **Email** — 메인테이너 (dotori, GitHub: [@dotoridot](https://github.com/dotoridot)) 의 commit author email 로 직접 보내기. (스팸 방지 위해 평문 표기 안 함.)
 
 **제목 prefix**: `[security]` 권장 — triage 가속.
 

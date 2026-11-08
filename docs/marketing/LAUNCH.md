@@ -20,7 +20,7 @@
 - 다른 LLM 환경에서도 쓸 수 있는 portable system prompt
 - 의미 보존, 요약 금지, 90% 길이 floor, 20% cap, 문단 3곳 룰, 발화체 ~다체 금지
 
-Repo: https://github.com/dotoricode/korean-humanizer
+Repo: https://github.com/dotoridot/korean-humanizer
 
 ## Short Post — English
 
@@ -37,7 +37,7 @@ This repo packages:
 - a portable system prompt for other LLM environments
 - eval fixtures for meaning-preserving, low-touch edits, with an explicit anti-summarization guardrail
 
-Repo: https://github.com/dotoricode/korean-humanizer
+Repo: https://github.com/dotoridot/korean-humanizer
 
 ## README Pitch
 

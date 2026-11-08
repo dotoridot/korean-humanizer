@@ -6,7 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-최신 출시 버전은 **[v1.1.0](https://github.com/dotoricode/korean-humanizer/releases/tag/v1.1.0)**입니다. 의미를 보존하는 간결화 규칙과 기존 main의 개선 사항을 포함합니다. [버전 정책](docs/STABILITY-PROMISE.md)과 [변경 안내](docs/UPGRADE-NOTES.md)를 확인하세요.
+최신 출시 버전은 **[v1.1.0](https://github.com/dotoridot/korean-humanizer/releases/tag/v1.1.0)**입니다. 의미를 보존하는 간결화 규칙과 기존 main의 개선 사항을 포함합니다. [버전 정책](docs/STABILITY-PROMISE.md)과 [변경 안내](docs/UPGRADE-NOTES.md)를 확인하세요.
 
 표현만 다듬을 때는 `korean-humanizer`를 사용합니다. 코드·설정과 대조해 README를 현행화하거나 독자에 맞게 구조와 내용을 고칠 때는 별도 스킬 [korean-humanizer-deep](docs/plans/korean-humanizer-deep.md)을 사용합니다. `deep`은 파일의 문맥을 조사하고, 붙여 넣은 글은 요청한 목적에 맞게 재구성합니다.
 
@@ -44,7 +44,7 @@
 스킬을 사용할 프로젝트에서 아래 명령을 실행합니다. [Skills CLI](https://github.com/vercel-labs/skills)를 사용하며 Node.js/npm이 필요합니다.
 
 ```bash
-npx skills add dotoricode/korean-humanizer --skill korean-humanizer --agent codex claude-code --copy
+npx skills add dotoridot/korean-humanizer --skill korean-humanizer --agent codex claude-code --copy
 ```
 
 공개 저장소의 기본 브랜치를 Codex의 `.agents/skills/korean-humanizer/`와 Claude Code의 `.claude/skills/korean-humanizer/`에 파일로 설치합니다. 하나만 설치하려면 `--agent codex` 또는 `--agent claude-code`로 바꾸고, 모든 프로젝트에서 쓰려면 `--global`을 추가합니다. Codex·Claude 내장 명령이 아닌 외부 전용 설치 CLI입니다.
@@ -93,7 +93,7 @@ brand=내-브랜드.md
 | 변경·출시 준비 | [CHANGELOG](CHANGELOG.md), [ROADMAP](ROADMAP.md) |
 | 기여·보안 | [CONTRIBUTING](CONTRIBUTING.md), [SECURITY](SECURITY.md) |
 
-[Issue](https://github.com/dotoricode/korean-humanizer/issues)와 PR을 환영합니다. 도움이 됐다면 GitHub Star로 알려주세요. [MIT 라이선스](LICENSE)로 사용할 수 있습니다.
+[Issue](https://github.com/dotoridot/korean-humanizer/issues)와 PR을 환영합니다. 도움이 됐다면 GitHub Star로 알려주세요. [MIT 라이선스](LICENSE)로 사용할 수 있습니다.
 
 ## 외부 체험 서비스
 

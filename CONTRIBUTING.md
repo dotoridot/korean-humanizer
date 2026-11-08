@@ -112,4 +112,4 @@ PR을 올리기 전에 아래를 확인해주세요:
 - 모든 패턴 제안은 "AI 티"라는 객관적 관찰에 한정합니다 — 특정 화자나 채널을 비하하는 패턴은 받지 않습니다.
 - 정치·종교·인종 관련 표현 패턴은 별도 정책 협의가 필요합니다(현재 정책: 패턴 자체가 차별·비하 의도라면 거부).
 
-질문은 [Issues](https://github.com/dotoricode/korean-humanizer/issues)에서.
+질문은 [Issues](https://github.com/dotoridot/korean-humanizer/issues)에서.

@@ -3,9 +3,9 @@
 > 과거 개발·베타 기록입니다. 현재 사용법은 [문서 안내](../../README.md)를 참고하세요. 예전 규칙·수치·예시는 현재 동작의 보증이 아닙니다.
 >
 > 기존 비교 자료입니다. 현재 수정 한도·90% 길이 보존을 충족한 결과로 보장하지 않습니다. 정확한 모델 실행 기록과 재검증이 필요한 사례입니다.
-> [`korean-humanizer-research.md`](../../research/background.md) (raw) → [`korean-humanizer-research-humanized.md`](https://github.com/dotoricode/korean-humanizer/blob/b9eb15db0bd7c365ec5781d308db3a0787360c22/korean-humanizer-research-humanized.md) 변환 과정의 단락별 상세 비교.
+> [`korean-humanizer-research.md`](../../research/background.md) (raw) → [`korean-humanizer-research-humanized.md`](https://github.com/dotoridot/korean-humanizer/blob/b9eb15db0bd7c365ec5781d308db3a0787360c22/korean-humanizer-research-humanized.md) 변환 과정의 단락별 상세 비교.
 >
-> 당시 한국어 README의 [Full Example](https://github.com/dotoricode/korean-humanizer/blob/b9eb15db0bd7c365ec5781d308db3a0787360c22/README.ko.md#full-example) 은 Executive Summary 두 단락만 짧게 보여 준다. 이 문서는 같은 변환 작업에서 **다른 섹션 4~5 곳을 더 깊게** 살펴 본다 — 어떤 카테고리가 어디에 적용되었는지, 어디서 humanizer 가 *덜* 손대야 했는지, 표 / 코드 / 사실 정보가 어떻게 보존되었는지를 정리한다.
+> 당시 한국어 README의 [Full Example](https://github.com/dotoridot/korean-humanizer/blob/b9eb15db0bd7c365ec5781d308db3a0787360c22/README.ko.md#full-example) 은 Executive Summary 두 단락만 짧게 보여 준다. 이 문서는 같은 변환 작업에서 **다른 섹션 4~5 곳을 더 깊게** 살펴 본다 — 어떤 카테고리가 어디에 적용되었는지, 어디서 humanizer 가 *덜* 손대야 했는지, 표 / 코드 / 사실 정보가 어떻게 보존되었는지를 정리한다.
 
 ## 메타데이터
 
@@ -185,7 +185,7 @@ humanized 본은 prose 단락 약 25 개를 다듬었다. 표 / 코드 / Mermaid
 
 ```
 # 1. raw 위키 다운로드
-curl -L https://raw.githubusercontent.com/dotoricode/korean-humanizer/main/korean-humanizer-research.md -o raw.md
+curl -L https://raw.githubusercontent.com/dotoridot/korean-humanizer/main/korean-humanizer-research.md -o raw.md
 
 # 2. Claude Code / Cowork / OpenCode 에서:
 /korean-humanizer

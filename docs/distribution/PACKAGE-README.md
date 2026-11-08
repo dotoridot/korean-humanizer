@@ -23,17 +23,17 @@ korean-humanizer 스킬로 이거 AI 티 빼줘. 도메인=email:
 
 ## 내 문체와 금지어
 
-가장 간단한 방법은 요청 첫 줄에 `금지=활용,매우; 선호=유용하다→쓸만하다`처럼 적는 것입니다. 파일로 관리하려면 내 컴퓨터에 설정 파일을 만들고 `personal=/절대/경로.md` 또는 `brand=/절대/경로.md`로 지정합니다. MCP로 불러온 스킬에는 스킬 폴더가 없으므로 상대 경로는 함께 전달된 예시 파일(`brand=examples/brand-voice-toss-style.md` 등)에만 씁니다. 설정 파일의 틀은 [GitHub의 examples 폴더](https://github.com/dotoricode/korean-humanizer/tree/main/examples)에서 복사합니다.
+가장 간단한 방법은 요청 첫 줄에 `금지=활용,매우; 선호=유용하다→쓸만하다`처럼 적는 것입니다. 파일로 관리하려면 내 컴퓨터에 설정 파일을 만들고 `personal=/절대/경로.md` 또는 `brand=/절대/경로.md`로 지정합니다. MCP로 불러온 스킬에는 스킬 폴더가 없으므로 상대 경로는 함께 전달된 예시 파일(`brand=examples/brand-voice-toss-style.md` 등)에만 씁니다. 설정 파일의 틀은 [GitHub의 examples 폴더](https://github.com/dotoridot/korean-humanizer/tree/main/examples)에서 복사합니다.
 
 ## 직접 설치
 
 스킬 폴더에 설치하려면 [Skills CLI](https://github.com/vercel-labs/skills)로 공개 GitHub 버전을 받습니다. 설치할 때 Node.js/npm이 필요하며, Agensi에서 불러오는 버전과 다를 수 있습니다.
 
 ```bash
-npx skills add dotoricode/korean-humanizer --skill korean-humanizer --agent codex claude-code --copy
+npx skills add dotoridot/korean-humanizer --skill korean-humanizer --agent codex claude-code --copy
 ```
 
-Codex에서는 `$korean-humanizer`, Claude Code에서는 `/korean-humanizer`로 호출합니다. 스킬을 쓸 수 없는 환경에서는 [GitHub의 `PROMPT.short.md`](https://github.com/dotoricode/korean-humanizer/blob/main/PROMPT.short.md)를 모델의 지침이나 첫 메시지에 붙여 넣습니다.
+Codex에서는 `$korean-humanizer`, Claude Code에서는 `/korean-humanizer`로 호출합니다. 스킬을 쓸 수 없는 환경에서는 [GitHub의 `PROMPT.short.md`](https://github.com/dotoridot/korean-humanizer/blob/main/PROMPT.short.md)를 모델의 지침이나 첫 메시지에 붙여 넣습니다.
 
 ## 포함 파일과 동작
 
@@ -47,4 +47,4 @@ Codex에서는 `$korean-humanizer`, Claude Code에서는 `/korean-humanizer`로 
 
 MIT 라이선스이며 `LICENSE`의 저작권 고지와 조건을 유지합니다. 무료 배포입니다. Agensi MCP 응답에는 Agensi의 이용 고지가 붙지만, 이 스킬의 원문은 GitHub에 공개되어 있습니다.
 
-업데이트·전체 실행 기록·Issue·PR은 [GitHub 저장소](https://github.com/dotoricode/korean-humanizer)에서 확인할 수 있습니다. 도움이 됐다면 Star로 알려주세요. Star는 사용 조건이 아닙니다.
+업데이트·전체 실행 기록·Issue·PR은 [GitHub 저장소](https://github.com/dotoridot/korean-humanizer)에서 확인할 수 있습니다. 도움이 됐다면 Star로 알려주세요. Star는 사용 조건이 아닙니다.

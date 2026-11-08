@@ -59,7 +59,7 @@ class PackageTests(unittest.TestCase):
         files = {item['path']: item['content'] for item in payload['files']}
         self.assertEqual(list(files), ['LICENSE', 'README.md', 'SKILL.md'])
         self.assertEqual(files['README.md'],
-                         f'[Evidence](https://github.com/dotoricode/korean-humanizer/blob/{commit}/docs/evidence.md)\n')
+                         f'[Evidence](https://github.com/dotoridot/korean-humanizer/blob/{commit}/docs/evidence.md)\n')
         self.assertEqual(files['SKILL.md'], 'Skill instructions\n')
         first = payload_file.read_bytes()
         packager.build(self.output)

@@ -45,7 +45,7 @@ def build(output):
             if subprocess.run(['git', 'cat-file', '-e', f'{commit}:{resolved}'], cwd=ROOT,
                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode:
                 raise ValueError(f'Unresolved link: {name} -> {target}')
-            url = f'https://github.com/dotoricode/korean-humanizer/blob/{commit}/{resolved}'
+            url = f'https://github.com/dotoridot/korean-humanizer/blob/{commit}/{resolved}'
             if parts.fragment:
                 url += '#' + parts.fragment
             rewritten.append({'file': name, 'target': target, 'url': url})

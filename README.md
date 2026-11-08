@@ -8,7 +8,7 @@
 [![Patterns](https://img.shields.io/badge/patterns-137%2B-brightgreen.svg)](references/ko-ai-signals.md)
 [![Domains](https://img.shields.io/badge/domains-12-brightgreen.svg)](references/ko-ai-signals.md#부록-e-도메인별-카테고리-우선-적용)
 
-The latest release is **[v1.1.0](https://github.com/dotoricode/korean-humanizer/releases/tag/v1.1.0)**. It includes meaning-preserving concision rules and the improvements on main since the documented v1.0.1 version. See the [version policy](docs/STABILITY-PROMISE.md) and [change notes](docs/UPGRADE-NOTES.md).
+The latest release is **[v1.1.0](https://github.com/dotoridot/korean-humanizer/releases/tag/v1.1.0)**. It includes meaning-preserving concision rules and the improvements on main since the documented v1.0.1 version. See the [version policy](docs/STABILITY-PROMISE.md) and [change notes](docs/UPGRADE-NOTES.md).
 
 The catalog provides context-dependent editing candidates, not words to replace in every sentence. Preserve facts, tone, uncertainty and conditions; leave already natural text unchanged.
 Use `korean-humanizer` for expression editing that preserves meaning and tone. Use the independent [korean-humanizer-deep](docs/plans/korean-humanizer-deep.md) skill to revise structure and verified facts using project context, or reshape pasted text for its audience. It is not an automatic mode or an editing-intensity setting for the base skill.
@@ -77,7 +77,7 @@ These are first final responses from native `/korean-humanizer` and `$korean-hum
 Run this command in the project where you want to use the skill. It uses the [Skills CLI](https://github.com/vercel-labs/skills) and requires Node.js/npm.
 
 ```bash
-npx skills add dotoricode/korean-humanizer --skill korean-humanizer --agent codex claude-code --copy
+npx skills add dotoridot/korean-humanizer --skill korean-humanizer --agent codex claude-code --copy
 ```
 
 This installs the public default branch as files in `.agents/skills/korean-humanizer/` for Codex and `.claude/skills/korean-humanizer/` for Claude Code. Use `--agent codex` or `--agent claude-code` to install for just one agent; add `--global` for all projects. The installer is a third-party CLI, not a built-in Codex or Claude command.

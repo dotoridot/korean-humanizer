@@ -20,20 +20,20 @@
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/dotoricode/korean-humanizer.git ~/.claude/skills/korean-humanizer
+git clone https://github.com/dotoridot/korean-humanizer.git ~/.claude/skills/korean-humanizer
 ```
 
 ### Claude.ai (Cowork) 사용자
 
-1. [SKILL.md](https://github.com/dotoricode/korean-humanizer/blob/main/SKILL.md) + [references/ko-ai-signals.md](https://github.com/dotoricode/korean-humanizer/blob/main/references/ko-ai-signals.md) 다운로드
+1. [SKILL.md](https://github.com/dotoridot/korean-humanizer/blob/main/SKILL.md) + [references/ko-ai-signals.md](https://github.com/dotoridot/korean-humanizer/blob/main/references/ko-ai-signals.md) 다운로드
 2. Cowork 프로젝트 또는 대화에 업로드
 
 ### ChatGPT / Cursor / Gemini 사용자
 
-1. [PROMPT.md](https://github.com/dotoricode/korean-humanizer/blob/main/PROMPT.md) 전체 복사
+1. [PROMPT.md](https://github.com/dotoridot/korean-humanizer/blob/main/PROMPT.md) 전체 복사
 2. 시스템 프롬프트 (또는 Cursor Rule) 에 붙여넣기
 
-상세 가이드: [README — Installation](https://github.com/dotoricode/korean-humanizer#installation).
+상세 가이드: [README — Installation](https://github.com/dotoridot/korean-humanizer#installation).
 
 ---
 
@@ -108,7 +108,7 @@ frontmatter 채운 뒤 호출:
 [텍스트]
 ```
 
-자세한 예시: [`examples/brand-voice-toss-style.md`](https://github.com/dotoricode/korean-humanizer/blob/main/examples/brand-voice-toss-style.md), [`examples/brand-voice-essayist.md`](https://github.com/dotoricode/korean-humanizer/blob/main/examples/brand-voice-essayist.md).
+자세한 예시: [`examples/brand-voice-toss-style.md`](https://github.com/dotoridot/korean-humanizer/blob/main/examples/brand-voice-toss-style.md), [`examples/brand-voice-essayist.md`](https://github.com/dotoridot/korean-humanizer/blob/main/examples/brand-voice-essayist.md).
 
 ---
 

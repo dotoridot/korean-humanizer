@@ -8,7 +8,7 @@
 
 ## 모집 한 줄 요약
 
-> **한국어로 매주 글 쓰는 분 3-5 명**, **1-2 주 간 humanizer 사용 후 5 분 폼**. README contributor 로 표기 (선택). 신청은 [GitHub Issue](https://github.com/dotoricode/korean-humanizer/issues/new) 또는 X DM.
+> **한국어로 매주 글 쓰는 분 3-5 명**, **1-2 주 간 humanizer 사용 후 5 분 폼**. README contributor 로 표기 (선택). 신청은 [GitHub Issue](https://github.com/dotoridot/korean-humanizer/issues/new) 또는 X DM.
 
 ---
 
@@ -25,7 +25,7 @@ v1.0 안정화 전 베타 사용자 3-5 명 찾습니다.
 환경: Claude Code / Claude.ai / ChatGPT / Cursor / Gemini 어디든
 
 DM 주세요 🙏
-github.com/dotoricode/korean-humanizer
+github.com/dotoridot/korean-humanizer
 ```
 
 ### 2. X / Threads (영어, 280 자)
@@ -39,7 +39,7 @@ Reward: README contributor (optional)
 Works in Claude Code, Claude.ai, ChatGPT, Cursor, Gemini
 
 DM me 🙏
-github.com/dotoricode/korean-humanizer
+github.com/dotoridot/korean-humanizer
 ```
 
 ### 3. IndieHackers KR Slack / 한국어 작가 디스코드
@@ -61,7 +61,7 @@ v0.8 까지 12 카테고리 / 137+ 패턴 / 12 도메인 / 4 customization mode 
 
 **일정**: 주차 1 모집 → 주차 2-3 사용 + 주간 피드백 → 주차 4 v1.0 release.
 
-신청은 GitHub Issue (https://github.com/dotoricode/korean-humanizer/issues/new) 에 `[beta]` prefix 또는 X DM (@dotoricode) 으로.
+신청은 GitHub Issue (https://github.com/dotoridot/korean-humanizer/issues/new) 에 `[beta]` prefix 또는 X DM (@dotoricode) 으로.
 
 자세한 사용 가이드: docs/beta-guide.md (확정 후 안내).
 
@@ -106,7 +106,7 @@ KatFish / XDAC 같은 한국어 AI 탐지 연구도 비슷한 신호를 지적�
 - 1-2 주 평소 글에 적용 후 짧은 폼 (5 분)
 - 보상: README contributor 표기 (선택)
 
-GitHub: https://github.com/dotoricode/korean-humanizer
+GitHub: https://github.com/dotoridot/korean-humanizer
 신청: GitHub Issue `[beta]` prefix 또는 X DM (@dotoricode)
 ```
 
@@ -131,7 +131,7 @@ AI 글쓰기 많이들 쓰시죠. 저도 그러다가 "AI 티"가 너무 신경 
 
 v1.0 안정화 전 실제 글 쓰시는 분 3-5 명과 함께 검증하고 싶어요. 뉴스레터 / 블로그 / 마케팅 / LinkedIn 등 어떤 도메인이든. 1-2 주 사용 + 5 분 폼이면 충분합니다.
 
-→ https://github.com/dotoricode/korean-humanizer
+→ https://github.com/dotoridot/korean-humanizer
 → 신청: GitHub Issue `[beta]` 또는 X DM (@dotoricode)
 ```
 
@@ -152,7 +152,7 @@ v1.0 안정화 전 실제 글 쓰시는 분 3-5 명과 함께 검증하고 싶�
 
 번역체 / 격식체 / AI 어휘 같은 패턴 137+ 개가 있고, 뉴스레터 / 브런치 도메인에 맞는 톤으로 Brand voice 설정도 할 수 있어요.
 
-→ https://github.com/dotoricode/korean-humanizer
+→ https://github.com/dotoridot/korean-humanizer
 보상: README contributor 표기 (선택)
 ```
 
@@ -167,7 +167,7 @@ v1.0 안정화 전 실제 글 쓰시는 분 3-5 명과 함께 검증하고 싶�
 
 현재 12 카테고리 / 137+ 패턴 / 12 도메인 / 4 customization mode 까지 만들어진 상태고, 평소 [이름]님이 쓰는 [도메인 — 마케팅 / 블로그 등] 에 잘 맞는지 보고 싶어요.
 
-레포: https://github.com/dotoricode/korean-humanizer
+레포: https://github.com/dotoridot/korean-humanizer
 docs/beta-guide.md — 사용 가이드
 
 도와주실 수 있으시면 평소 쓰시는 환경 (Claude Code / ChatGPT / Cursor 등) 알려주세요. 설치부터 같이 도와드릴게요.

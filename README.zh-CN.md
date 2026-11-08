@@ -7,7 +7,7 @@
 [English](README.md) · [한국어](README.ko.md)
 
 
-最新正式版本是 **[v1.1.0](https://github.com/dotoricode/korean-humanizer/releases/tag/v1.1.0)**，包含保留原意的精简规则和 main 分支的改进。请参阅[版本政策](docs/STABILITY-PROMISE.md)和[变更说明](docs/UPGRADE-NOTES.md)。
+最新正式版本是 **[v1.1.0](https://github.com/dotoridot/korean-humanizer/releases/tag/v1.1.0)**，包含保留原意的精简规则和 main 分支的改进。请参阅[版本政策](docs/STABILITY-PROMISE.md)和[变更说明](docs/UPGRADE-NOTES.md)。
 
 仅润色表达、保留原意和语气时使用 `korean-humanizer`。需要核对代码与配置、更新文档事实或按读者重组草稿时，使用独立技能 [korean-humanizer-deep](docs/plans/korean-humanizer-deep.md)。它不是基础技能的自动模式或润色强度选项。
 
@@ -50,7 +50,7 @@ Humanize this Korean text:
 在需要使用此技能的项目中运行以下命令。它使用 [Skills CLI](https://github.com/vercel-labs/skills)，需要 Node.js/npm。
 
 ```bash
-npx skills add dotoricode/korean-humanizer --skill korean-humanizer --agent codex claude-code --copy
+npx skills add dotoridot/korean-humanizer --skill korean-humanizer --agent codex claude-code --copy
 ```
 
 该命令把公开仓库的默认分支复制到 Codex 的 `.agents/skills/korean-humanizer/` 和 Claude Code 的 `.claude/skills/korean-humanizer/`。只安装一个环境时使用 `--agent codex` 或 `--agent claude-code`；添加 `--global` 可供所有项目使用。这是第三方技能安装 CLI，不是 Codex 或 Claude 的内置命令。
