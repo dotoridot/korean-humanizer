@@ -1,6 +1,6 @@
-# korean-humanizer
+# Korean Humanizer - 한국어 AI 글 다듬기
 
-한국어 AI 글에서 어색한 표현을 줄이는 스킬과 프롬프트입니다. 원문의 의미·정보·말투를 유지하며 필요한 부분만 다듬습니다.
+AI가 쓴 한국어 글에서 어색한 표현을 다듬고, 원문의 의미와 정보, 말투는 그대로 둡니다. Claude Code와 Codex에서는 Korean Humanizer를 스킬로 설치하고, 다른 LLM에서는 프롬프트로 쓸 수 있습니다.
 
 [English](README.md) · [中文](README.zh-CN.md)
 
