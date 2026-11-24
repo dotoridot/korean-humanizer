@@ -21,6 +21,8 @@ ChatGPT로 쓴 한국어 글에서 번역투나 불필요하게 길어진 표현
 
 스킬을 [설치](#설치)한 프로젝트에서 새 대화를 열고, Claude Code에서는 `/korean-humanizer`, Codex에서는 `$korean-humanizer` 뒤에 원문을 붙여 넣으세요.
 
+업무 이메일, 블로그, 기능 안내를 다듬은 예시와 복사해서 쓸 요청 문구는 [ChatGPT가 쓴 한국어 글 다듬기 가이드](https://dotoridot.github.io/korean-humanizer/)에서 볼 수 있습니다.
+
 ## 바로 써보기
 
 설치 없이 쓰려면 [짧은 프롬프트](PROMPT.short.md)를 사용하는 LLM의 지침 또는 첫 메시지에 붙여 넣고 아래처럼 요청하세요. 더 자세한 규칙은 [전체 프롬프트](PROMPT.md)에 있습니다.
